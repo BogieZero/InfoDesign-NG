@@ -3,5 +3,5 @@ DELTA 23.Jun.02017: * Change of Date * Code cleanup
 */
 
 p {
-	font-size: 35px;
+	font: normal 64px 'Droid Serif';
 }
