@@ -1,13 +1,17 @@
 /* Style sheet for general testing purposes
-DELTA 23.Jun.02017: * Change of Date * Code cleanup
+DELTA 26.Jun.02017: * Change of Date * Code cleanup
 */
 
 p {
 	border: 1px red solid;
-	font: normal 32px 'Droid Serif';
+	font: normal 22px 'Droid Serif';
 	margin: 15px;
 }
 
 p.top-small {
-	font: 18px;
+	font-size: 18px;
+}
+
+#panel {
+	background-color: #ff2600;
 }
