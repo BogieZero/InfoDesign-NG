@@ -7,3 +7,7 @@ p {
 	font: normal 32px 'Droid Serif';
 	margin: 15px;
 }
+
+p.top-small {
+	font: 18px;
+}
