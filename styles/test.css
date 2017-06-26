@@ -4,8 +4,9 @@ DELTA 26.Jun.02017: * Change of Date * Code cleanup
 
 p {
 	border: 1px red solid;
-	font: normal 22px 'Droid Serif';
+	font: normal 16px 'Droid Serif';
 	margin: 15px;
+	background-color: #d5d5d5;
 }
 
 p.top-small {
