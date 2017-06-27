@@ -1,6 +1,11 @@
 /* Style sheet for general testing purposes
-DELTA 26.Jun.02017: * Change of Date * Code cleanup
+DELTA 27.Jun.02017: * Change of Date * Code cleanup
 */
+
+#masthead {
+	border: 5px red green;
+}
+
 
 p {
 	border: 1px red solid;
