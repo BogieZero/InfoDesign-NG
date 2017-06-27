@@ -2,14 +2,41 @@
 DELTA 27.Jun.02017: * Change of Date * Code cleanup
 */
 
-#masthead {
-	border: 5px red green;
+/* Structural elements */
+body {
+	padding: 0;
+	margin: 0;
 }
 
+#masthead {
+	border: 1px solid green;
+	margin: 15px;
+}
+
+/* Nav List */
+#menu-outer {
+	height: 84px;
+	/*background: url(images/bar-bg.jpg) repeat-x;*/
+}
+
+.table {
+	display: table; /* Allow the centering to work */
+	margin: 0 auto;
+}
+
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	
+ul#horizontal-list li {
+		display: inline;
+	}
 
 p {
 	border: 1px red solid;
-	font: normal 16px 'Droid Serif';
+	font: normal 18px 'Droid Serif';
 	margin: 15px;
 	background-color: #d5d5d5;
 }
