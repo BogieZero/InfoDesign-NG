@@ -2,6 +2,25 @@
 DELTA 27.Jun.02017: * Change of Date * Code cleanup
 */
 
+/*Link color language*/
+a:link {
+	color: #FCFFF5;
+	text-decoration: none;
+}
+a:visited {
+	color: #FCFFF5;
+	text-decoration: none;	
+}
+a:active {
+	color: #FCFFF5;
+	text-decoration: none;
+}
+a:hover {
+	color: #D1DBBD;
+	text-decoration: underline;
+}
+
+
 /* Structural elements */
 body {
 	padding: 0;
@@ -13,10 +32,13 @@ body {
 	/*margin: 15px;*/
 }
 
+hgroup {
+	position: relative;
+}
+
 /* Nav List */
 #menu-outer {
 	height: 84px;
-	/*background: url(images/bar-bg.jpg) repeat-x;*/
 }
 
 .table {
@@ -26,16 +48,20 @@ body {
 
 ul#horizontal-list {
 	border: 1px solid #D5D5D5;
-	min-width: 696px;
+	min-width: 100%;
 	list-style: none;
-	padding-top: 20px;
-	}
+	position: absolute;
+	top: 325px;
+	left: 0px;
+	padding: 25px;
+}
 	
 ul#horizontal-list li {
-	border: 1px solid red;
+	border: 1px solid #91AA9D;
 	display: inline;
-	margin: 5px;
+	margin: 10px;
 	padding: 5px;
+	font: normal 18px 'Droid Serif';
 }
 
 p {
