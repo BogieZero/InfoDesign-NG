@@ -4,7 +4,7 @@ DELTA 27.Jun.02017: * Change of Date * Code cleanup
 
 /*Link color language*/
 a:link {
-	color: #FCFFF5;
+	color: #000;
 	text-decoration: none;
 }
 a:visited {
@@ -12,7 +12,7 @@ a:visited {
 	text-decoration: none;	
 }
 a:active {
-	color: #FCFFF5;
+	color: #000;
 	text-decoration: none;
 }
 a:hover {
