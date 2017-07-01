@@ -48,6 +48,8 @@ hgroup {
 
 ul#horizontal-list {
 	border: 1px solid #D5D5D5;
+	opacity: 0.5;
+    background-color: #91AA9D;
 	min-width: 100%;
 	list-style: none;
 	position: absolute;
