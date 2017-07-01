@@ -15,9 +15,19 @@
 <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Droid+Serif:bolditalic" />
 <link rel="pingback" href="http://www.informationdesign.org/xmlrpc.php" />
 
+
+<!-- STYLE SHEET Grid sys ON/OFF (Jul.01.02017) -->
+<link rel="stylesheet" media="all" href="styles/grid.css" />
+
 <!-- STYLE SHEETS (Jun.30.02017) -->
 <link rel="stylesheet" media="all" href="styles/reset.css" />
+
+
+
 <link rel="stylesheet" media="all" href="styles/test.css" />
+
+
+
 
 <!-- CODE LIBS from Google -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
@@ -34,22 +44,30 @@
 
 
 <!-- Format and content: 01 ju1 02017 -->
+
+
 <div id="masthead">
 	<header>
 		<hgroup>    
 	     	<!-- <h1 id="site-title"><a href="#">Link to</a> -->
 	     	<img src="images/masthead.jpg" alt="Xmedia">
 	     	<!-- </h1> -->
-	        <h2 id="site-description">site descr</h2>
+
+	     <div class="site_title">
+      		<a href="/index.php">InfoDesign</a>
+    		</div><!-- end .site_title -->
+		<div class="tagline_uxd">
+			Hand-picked since 1997
+		</div><!-- end .tagline_uxd -->
 
 <!-- Search box - Styling: 01 jul 02017 -->
 <div id="search-box">
 	<form id="searchForm" method="get" action="http://www.informationdesign.org/">
      	<fieldset>
         		<div class="searchinput">
-          		<input type="text" name="s" id="s" value="Type, hit enter." />
+          		<input type="text" name="s" id="s" value="Search..." />
         		</div><!-- end .searchinput -->
-        			<input type="submit" id="searchSubmit" value="Search" />
+        			<!-- <input type="submit" id="searchSubmit" value="Search" /> -->
      	</fieldset>
 	</form>
 </div><!-- end .search-box -->

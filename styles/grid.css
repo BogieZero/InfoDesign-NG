@@ -1,0 +1,15 @@
+/* Style sheet for general testing purposes
+DELTA 01.Jul.02017: * Init
+*/
+
+html {
+  height: 100%;
+}
+
+body { 
+
+    background-size: 15px 15px;
+    background-image: linear-gradient(to right, #D5D5D5 1px, transparent 1px), linear-gradient(to bottom, #D5D5D5 1px, transparent 1px);
+	margin-left: 10px;
+	padding-left: 10px;
+}
