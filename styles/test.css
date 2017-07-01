@@ -20,6 +20,17 @@ a:hover {
 }
 
 
+html {
+  /*background: url(../images/masthead.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+
+
+
 /* Structural elements */
 body {
 	padding: 0;
@@ -27,7 +38,9 @@ body {
 }
 
 #masthead {
-	border: 1px solid green;
+	border: 1px solid red;
+    margin: 0px;
+    padding: 0px;
 	/*margin: 15px;*/
 }
 
@@ -35,6 +48,11 @@ hgroup {
 	position: relative;
 }
 
+#hgroup img {
+	max-width: 100%;
+    height: auto;
+    width: auto; 
+}
 
 .site_title {
 /*border: 1px solid green;*/
@@ -96,7 +114,7 @@ input#searchSubmit {
 
 /* Nav List */
 #menu-outer {
-	height: 84px;
+	height: 0px;
 }
 
 .table {
@@ -125,9 +143,11 @@ ul#horizontal-list li {
 
 p {
 	border: 1px red solid;
-	font: normal 18px 'Droid Serif';
-	margin: 15px;
-	background-color: #d5d5d5;
+	font: normal 16px 'Droid Serif';
+    line-height: 25px;
+	margin: 0px;
+    padding: 5px 0px 20px 20px;
+	color: #000;
 }
 
 p.top-small {

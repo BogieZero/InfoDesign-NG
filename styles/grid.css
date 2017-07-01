@@ -8,8 +8,8 @@ html {
 
 body { 
 
-    background-size: 15px 15px;
+    background-size: 12px 12px;
     background-image: linear-gradient(to right, #D5D5D5 1px, transparent 1px), linear-gradient(to bottom, #D5D5D5 1px, transparent 1px);
-	margin-left: 10px;
-	padding-left: 10px;
+	margin-left: 0px;
+	padding-left: 0px;
 }

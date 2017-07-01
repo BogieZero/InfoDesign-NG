@@ -7,6 +7,6 @@ This is the README of the new incarnation of InfoDesign: Understanding by Design
 
 ## NOTES
 * GitHub connect
-* Development of Card UI.
+* Development of Card UI (in previous version).
 * Computation and connectivity as leading principles.
 * Typography is key also.
