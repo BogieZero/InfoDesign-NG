@@ -17,7 +17,6 @@ a:active {
 }
 a:hover {
 	color: #D1DBBD;
-	text-decoration: underline;
 }
 
 
@@ -59,7 +58,7 @@ ul#horizontal-list {
 }
 	
 ul#horizontal-list li {
-	border: 1px solid #91AA9D;
+	border: 1px solid #FCFFF5;
 	display: inline;
 	margin: 10px;
 	padding: 5px;
