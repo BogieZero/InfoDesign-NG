@@ -2,6 +2,15 @@
 DELTA 01.Jul.02017: * Change of Date * Code cleanup
 */
 
+html {
+  /*background: url(../images/masthead.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;*/
+}
+
+
 /*Link color language*/
 a:link {
 	color: #000;
@@ -20,14 +29,6 @@ a:hover {
 }
 
 
-html {
-  /*background: url(../images/masthead.jpg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;*/
-}
-
 
 
 
@@ -35,6 +36,7 @@ html {
 body {
 	padding: 0;
 	margin: 0;
+	color: #;
 }
 
 #masthead {
@@ -156,4 +158,44 @@ p.top-small {
 
 #panel {
 	background-color: #ff2600;
+}
+
+/*When the width is less than 500 pixels, these specs apply.*/
+@media only screen and (max-width: 500px) {
+    body {
+        background-color: lightblue;
+    }
+
+.site_title {
+/*border: 1px solid green;*/
+	font: normal 38px 'Droid Serif';
+	color: #D1DBBD;	
+	letter-spacing: 1.5px;
+	float: left;
+	margin: 20px 0 0 60px;
+	padding: 0;
+    position: absolute;
+    top: 75px;
+}
+
+.tagline_uxd {
+	font: italic 22px 'Droid Serif';
+	letter-spacing: 3px;
+	width:400px;
+	color: #91AA9D;
+	margin: 115px 0 0 0;
+	padding: 0 0 0 66px;
+    position: absolute;
+    top: 75px;
+}
+
+#search-box {
+    position: absolute;
+    top: 200px;
+    left: 100px;
+    padding: 10px;
+	float: none;
+}
+
+
 }
