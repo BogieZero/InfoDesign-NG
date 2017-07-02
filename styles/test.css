@@ -269,10 +269,10 @@ img.masthead-img {
 /* POST ITEM specs - Jul.03.02017 */
 h2.entry-title {
 	/*border: 1px red solid;*/
-	font: normal 32px 'Droid Serif';
+	font: normal 28px 'Droid Serif';
 	color: #3e606f;
-	padding: 12px 0 12px 0;
-	margin: 12px 0 12px 0;
+	padding: 0px 0 6px 0;
+	margin: 0px 0 6px 0;
 }
 /* END POST ITEM specs */
 
