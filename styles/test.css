@@ -1,5 +1,5 @@
-/* Style sheet for general testing purposes
-DELTA 01.Jul.02017: * Change of Date * Code cleanup
+/* Style sheet for testing purposes
+DELTA 03.Jul.02017: * Change of Date * Code cleanup
 */
 
 html {
@@ -36,14 +36,12 @@ a:hover {
 	padding: 0.5em 0.75em;
 	text-decoration: none;
 }
-
 /*Entry links*/
 .entry-meta a:hover,
 .entry-utility a:hover {
 	color: #91AA9D;
 	text-decoration:underline;	
 }
-
 /*Nav links*/
 .navigation a:link,
 .navigation a:visited {
@@ -54,8 +52,6 @@ a:hover {
 .navigation a:hover {
 	color: #ff4b33;
 }
-
-
 
 /* Structural elements */
 body {
@@ -168,11 +164,11 @@ ul#horizontal-list li {
 }
 
 p {
-	border: 1px red solid;
-	font: normal 16px 'Droid Serif';
-    line-height: 25px;
+	/* border: 1px #d5d5d5 solid; */
+	font: normal 18px 'Droid Serif';
+	line-height: 25px;
 	margin: 0px;
-    padding: 5px 0px 20px 20px;
+	padding: 5px 0px 12px;
 	color: #000;
 }
 
@@ -190,7 +186,7 @@ article {
 }
 h2.entry-title {
     /* border: 1px red solid; */
-    font: normal 42px 'Droid Serif';
+    font: normal 26px 'Droid Serif';
     color: #3e606f;
     padding: 12px 0 12px;
     margin: 0;
@@ -198,13 +194,15 @@ h2.entry-title {
 .entry-content p.mytake {
 	font: italic 16px/24px "Droid Serif";
 	color: #193441;
+	margin: 0px;
+	padding:0px 0 10px;
 }
 .entry-meta {
-	color: #3e606f;
-	font: normal 12px 'Droid Serif';
-	letter-spacing: 1px;
-	margin: 0 0 15px;
-	padding: 0;
+    color: #193441;
+    font: normal 36px 'Droid Serif';
+    letter-spacing: 1.2px;
+    margin: 0 0 15px;
+    padding: 0;
 }
 
 /* cat and tag styling */
@@ -214,6 +212,7 @@ ul.tag_row
 	list-style-type: none;
 	padding: 0;
 	margin: 0 0 12px;
+	display: inline;
 }
 
 /* END POST ITEM specs */
