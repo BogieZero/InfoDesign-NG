@@ -266,6 +266,15 @@ img.masthead-img {
 }
 
 /* POST ITEM specs - Jul.03.02017 */
+
+article {
+    border: 1px solid #91AA9D;
+    background-color: #FCFFF5;
+    opacity: 0.8;
+    margin: 22px 12px 24px 64px;
+    padding: 28px 60px 12px 28px;
+}
+
 h2.entry-title {
 	/*border: 1px red solid;*/
 	font: normal 28px 'Droid Serif';
@@ -273,6 +282,15 @@ h2.entry-title {
 	padding: 0px 0 6px 0;
 	margin: 0px 0 6px 0;
 }
+
+.entry-meta {
+    color: #193441;
+    font: normal 28px 'Droid Serif';
+    letter-spacing: 1.2px;
+    margin: 0 0 15px;
+    padding: 0;
+}
+
 /* END POST ITEM specs */
 
 ul#horizontal-list {
