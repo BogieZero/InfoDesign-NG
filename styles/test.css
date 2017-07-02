@@ -10,7 +10,7 @@ html {
   background-size: cover;*/
 }
 
-/*Link color language*/
+/* LINK LANGUAGES */
 a:link {
 	color: #FCFFF5;
 	text-decoration: none;
@@ -27,6 +27,35 @@ a:hover {
 	color: #FCFFF5;
   	text-decoration: underline;
 }
+/*Page links*/
+.page-link a:link,
+.page-link a:visited {
+	background: #f1f1f1;
+	color: #046380;
+	font-weight: normal;
+	padding: 0.5em 0.75em;
+	text-decoration: none;
+}
+
+/*Entry links*/
+.entry-meta a:hover,
+.entry-utility a:hover {
+	color: #91AA9D;
+	text-decoration:underline;	
+}
+
+/*Nav links*/
+.navigation a:link,
+.navigation a:visited {
+	color: #888;
+	text-decoration: none;
+}
+.navigation a:active,
+.navigation a:hover {
+	color: #ff4b33;
+}
+
+
 
 /* Structural elements */
 body {
@@ -62,7 +91,7 @@ img.masthead-img {
 	margin: 20px 0 0 60px;
 	padding: 0;
     position: absolute;
-    top: 75px;
+    top: 10px;
 }
 
 .tagline_uxd {
@@ -74,12 +103,15 @@ img.masthead-img {
 	margin: 115px 0 0 0;
 	padding: 0 0 0 66px;
     position: absolute;
-    top: 75px;
+    top: 70px;
 }
 
 /*Search elements*/
+#search-Form {
+	/*border: 1px solid red;*/
+}
+
 #search-box {
-	/*border: 1px #d5d5d5 solid;*/
     position: absolute;
     top: 100px;
     left: 700px;
@@ -87,13 +119,12 @@ img.masthead-img {
 	float: none;
 }
 
-#searchinput {
-	/*border: 1px #f1f1f1 solid;*/
+#search-input {
+	border: 1px red solid;
 	float: right;
 }
 
 input#s {
-	/*border: 1px black solid;*/
 	font: normal 14px 'Droid Serif';
     border-radius: 50px;
 	padding: 5px 0px 5px 15px;
@@ -124,9 +155,9 @@ ul#horizontal-list {
 	min-width: 100%;
 	list-style: none;
 	position: absolute;
-	top: 400px;
+	top: 270px;
 	left: 0px;
-	padding: 25px;
+	padding: 25px 0px 25px 50px;
 }
 	
 ul#horizontal-list li {
@@ -145,6 +176,38 @@ p {
 	color: #000;
 }
 
+topheader {
+	font: normal 16px 'Droid Serif';
+}
+
+/* POST ITEM specs - Jul.03.02017 */
+article {
+	border: 5px solid blue;
+	margin: 0;
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+h2.entry-title {
+	/*border: 1px red solid;*/
+	font: normal 64px 'Droid Serif';
+	color: #3e606f;
+	padding: 0;
+	margin: 0;
+}
+.entry-content p.mytake {
+	font: italic 16px/24px "Droid Serif";
+	color: #193441;
+}
+.entry-meta {
+	color: #3e606f;
+	font: normal 12px 'Droid Serif';
+	letter-spacing: 1px;
+	margin: 0 0 15px;
+	padding: 0;
+}
+
+/* END POST ITEM specs */
+
 p.top-small {
 	font-size: 18px;
 }
@@ -153,27 +216,25 @@ p.top-small {
 	background-color: #3E606F;
 }
 
-/*When the width of the screen is less than 500 pixels, these specs apply.*/
+/*When the width of the screen is less than 500 pixels (a.k.a. smartphone), these specs apply.*/
 @media only screen and (max-width: 500px) {
     body {
         background-color: lightblue;
     }
 
 img.masthead-img {
-	max-width: 100%;
+	max-width: 50%;
 }
 
-
 .site_title {
-/*border: 1px solid green;*/
-	font: normal 38px 'Droid Serif';
+	font: normal 58px 'Droid Serif';
 	color: #D1DBBD;	
 	letter-spacing: 1.5px;
 	float: left;
 	margin: 20px 0 0 60px;
 	padding: 0;
     position: absolute;
-    top: 75px;
+    top: 25px;
 }
 
 .tagline_uxd {
@@ -181,19 +242,49 @@ img.masthead-img {
 	letter-spacing: 3px;
 	width:400px;
 	color: #91AA9D;
-	margin: 115px 0 0 0;
+	margin: 100px 0 0 0;
 	padding: 0 0 0 66px;
     position: absolute;
-    top: 75px;
+    top: 55px;
 }
 
 #search-box {
     position: absolute;
-    top: 225px;
+    top: 200px;
     left: 100px;
     padding: 10px;
-	float: none;
+	/*float: none;*/
 }
+
+/* POST ITEM specs - Jul.03.02017 */
+h2.entry-title {
+	/*border: 1px red solid;*/
+	font: normal 32px 'Droid Serif';
+	color: #3e606f;
+	padding: 0;
+	margin: 0;
+}
+/* END POST ITEM specs */
+
+ul#horizontal-list {
+	border: 1px solid #193441;
+	opacity: 0.5;
+    background-color: #3E606F;
+	min-width: 100%;
+	list-style: none;
+	position: absolute;
+	top: 270px;
+	left: 0px;
+	padding: 25px 0px 25px 25px;
+}
+
+ul#horizontal-list li {
+	display: inline;
+	padding: 0px 12px 0px 0px;
+	margin: 0;
+	font: normal 20px 'Droid Serif';
+}
+
 
 
 }
