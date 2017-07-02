@@ -10,10 +10,9 @@ html {
   background-size: cover;*/
 }
 
-
 /*Link color language*/
 a:link {
-	color: #000;
+	color: #FCFFF5;
 	text-decoration: none;
 }
 a:visited {
@@ -21,16 +20,13 @@ a:visited {
 	text-decoration: none;	
 }
 a:active {
-	color: #000;
-	text-decoration: none;
+	color: #FCFFF5;
+	text-decoration: underline;
 }
 a:hover {
-	color: #D1DBBD;
+	color: #FCFFF5;
+  	text-decoration: underline;
 }
-
-
-
-
 
 /* Structural elements */
 body {
@@ -40,24 +36,25 @@ body {
 }
 
 #masthead {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
     margin: 0px;
     padding: 0px;
-	/*margin: 15px;*/
 }
 
 hgroup {
 	position: relative;
 }
 
-#hgroup img {
+img.masthead-img {
 	max-width: 100%;
     height: auto;
-    width: auto; 
+    width: auto;
+    position:absolute;
+    overflow-x:hidden;
+    overflow-y:hidden;
 }
 
 .site_title {
-/*border: 1px solid green;*/
 	font: normal 72px 'Droid Serif';
 	color: #D1DBBD;	
 	letter-spacing: 1.5px;
@@ -69,8 +66,6 @@ hgroup {
 }
 
 .tagline_uxd {
-/*border: solid 1px #d5d5d5;*/
-/*background: transparant;*/
 	font: italic 28px 'Droid Serif';
 	letter-spacing: 3px;
 	/*background-color: #193441;*/
@@ -81,7 +76,6 @@ hgroup {
     position: absolute;
     top: 75px;
 }
-
 
 /*Search elements*/
 #search-box {
@@ -94,25 +88,24 @@ hgroup {
 }
 
 #searchinput {
-	border: 1px #f1f1f1 solid;
+	/*border: 1px #f1f1f1 solid;*/
 	float: right;
 }
 
 input#s {
-	border: 1px black solid;
+	/*border: 1px black solid;*/
 	font: normal 14px 'Droid Serif';
     border-radius: 50px;
 	padding: 5px 0px 5px 15px;
 	background: #D1DBBD;
-
 }
+
 input#searchSubmit {
-	border: 1px black solid;
+	/*border: 1px black solid;*/
 	font: normal 14px 'Droid Serif';
     border-radius: 50px;
 	padding: 5px 15px 5px 15px;
 }
-
 
 /* Nav List */
 #menu-outer {
@@ -125,13 +118,13 @@ input#searchSubmit {
 }
 
 ul#horizontal-list {
-	border: 1px solid #D5D5D5;
+	border: 1px solid #193441;
 	opacity: 0.5;
-    background-color: #91AA9D;
+    background-color: #3E606F;
 	min-width: 100%;
 	list-style: none;
 	position: absolute;
-	top: 325px;
+	top: 400px;
 	left: 0px;
 	padding: 25px;
 }
@@ -140,7 +133,7 @@ ul#horizontal-list li {
 	display: inline;
 	margin: 10px;
 	padding: 5px;
-	font: normal 16px 'Droid Serif';
+	font: normal 22px 'Droid Serif';
 }
 
 p {
@@ -157,14 +150,19 @@ p.top-small {
 }
 
 #panel {
-	background-color: #ff2600;
+	background-color: #3E606F;
 }
 
-/*When the width is less than 500 pixels, these specs apply.*/
+/*When the width of the screen is less than 500 pixels, these specs apply.*/
 @media only screen and (max-width: 500px) {
     body {
         background-color: lightblue;
     }
+
+img.masthead-img {
+	max-width: 100%;
+}
+
 
 .site_title {
 /*border: 1px solid green;*/
@@ -191,7 +189,7 @@ p.top-small {
 
 #search-box {
     position: absolute;
-    top: 200px;
+    top: 225px;
     left: 100px;
     padding: 10px;
 	float: none;
