@@ -182,17 +182,18 @@ topheader {
 
 /* POST ITEM specs - Jul.03.02017 */
 article {
-	border: 5px solid blue;
-	margin: 0;
-	padding-top: 25px;
-	padding-bottom: 50px;
+    border: 1px solid #91AA9D;
+    background-color: #FCFFF5;
+    opacity: 0.7;
+    margin: 12px 12px 24px 12px;
+    padding: 12px 12px 12px 12px;
 }
 h2.entry-title {
-	/*border: 1px red solid;*/
-	font: normal 64px 'Droid Serif';
-	color: #3e606f;
-	padding: 0;
-	margin: 0;
+    /* border: 1px red solid; */
+    font: normal 42px 'Droid Serif';
+    color: #3e606f;
+    padding: 12px 0 12px;
+    margin: 0;
 }
 .entry-content p.mytake {
 	font: italic 16px/24px "Droid Serif";
@@ -204,6 +205,15 @@ h2.entry-title {
 	letter-spacing: 1px;
 	margin: 0 0 15px;
 	padding: 0;
+}
+
+/* cat and tag styling */
+ul.post-categories,
+ul.tag_row
+ {
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 12px;
 }
 
 /* END POST ITEM specs */
@@ -261,8 +271,8 @@ h2.entry-title {
 	/*border: 1px red solid;*/
 	font: normal 32px 'Droid Serif';
 	color: #3e606f;
-	padding: 0;
-	margin: 0;
+	padding: 12px 0 12px 0;
+	margin: 12px 0 12px 0;
 }
 /* END POST ITEM specs */
 
