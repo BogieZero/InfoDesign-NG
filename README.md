@@ -1,4 +1,4 @@
-InfoDesign-NG
+InfoDesign-NG (a.k.a. C3)
 =============
 
 A new incarnation of "InfoDesign: Sharing knowledge is better than having it"
