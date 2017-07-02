@@ -180,14 +180,14 @@ topheader {
 article {
     border: 1px solid #91AA9D;
     background-color: #FCFFF5;
-    opacity: 0.6;
+    opacity: 0.8;
     margin: 22px 12px 24px 64px;
     padding: 28px 60px 12px 60px;
 }
 h2.entry-title {
     /* border: 1px red solid; */
     font: normal 26px 'Droid Serif';
-    color: #3e606f;
+    color: #193441;
     padding: 12px 0 12px;
     margin: 0;
 }
