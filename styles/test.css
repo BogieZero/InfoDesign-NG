@@ -54,10 +54,19 @@ a:hover {
 }
 
 /* Structural elements */
-body {
+body {	
+	/* GRID LINES on/off*/
+	/* Colums */		
+	background-image: url('images/grid-cols.png');
+	background-repeat: repeat-x;
+	
+	/* Rows */	
+	/*background-image: url('images/grid-rows.png');
+	background-repeat: repeat-y;*/
+	
 	padding: 0;
 	margin: 0;
-	color: #;
+	/*color: #;*/
 }
 
 #masthead {
@@ -181,7 +190,7 @@ topheader {
   position: relative;
   /*float: left;*/
   padding-bottom: 400px;
-  margin-left: 80px;
+  margin-left: 0px;
   width: 700px;
   text-align: left;
 }
