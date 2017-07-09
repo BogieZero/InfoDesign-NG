@@ -188,7 +188,7 @@ topheader {
 /* POST ITEM specs - Jul.09.02017 Card flipping */
 .card {
   position: relative;
-  /*float: left;*/
+  float: left;
   padding-bottom: 400px;
   margin-left: 0px;
   width: 700px;
