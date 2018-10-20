@@ -1,4 +1,4 @@
-InfoDesign-NG (a.k.a. C3)
+InfoDesign-NG (a.k.a. C3 card version)
 =============
 
 A new incarnation of "InfoDesign: Sharing knowledge is better than having it"
